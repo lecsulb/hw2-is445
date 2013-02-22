@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+
+body {
+    background-image: url(/hw2/resource/tile.gif);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+form {
+    width: 570px;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #808080;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #cbd0d3;
+  border-color: cornsilk;  
+  padding:4px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #78b20c;
+    box-shadow:1px 1px 2px #147e30;
+}
+/*
+:invalid { 
+  border-color: #78b20c;
+  box-shadow:0 0 5px #cbd0d3;
+}
+*/
+
+input:focus,select:focus, textarea:focus{
+ background-color: #ffedb2; 
+ 
+ color: #147e30;
+ font-weight: bolder;
+ opacity:0.6;
+}
+
+table {
+    padding-left: 1.5cm;
+}
+
+hr {
+    width: auto;
+    color: #78b20c;
+    height: 3px;
+    background-color: #78b20c;
+}
+
+.profilePhoto {
+    padding-left: 6.5cm;
+    height: 262px;
+    width: 240px;
+    text-align: center;
+}
+
+input, select, textarea {
+  border-radius:4px;
+  font-size: 16px;
+  border-color: #665D5F; 
+  border-width: 1px;
+  padding: 5px;
+}
+
+.gray {
+    list-style-image: url(/hw2/resource/bullet_gray.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.purple {
+    list-style-image: url(/hw2/resource/bullet_purple.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+.clear {
+    list-style-image: url(/hw2/resource/bullet_white.png);
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #cbd0d3;
+}
+
+dd {
+    font-family: 'Bad Script', cursive;
+    font-size: 18px;
+    color: #371470;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    font-family: 'Satisfy', serif;
+    font-size: 32px;
+    color: #371470;
+    text-shadow: 1px 1px 1px #0094ff;
+    text-align: left;
+}
+
+.profileTitle {
+    padding-left: 7cm;
+    font-family: 'Satisfy', serif;
+    font-size: 40px;
+    color: #665D5F;
+    text-align: left;
+    text-shadow: 1px 1px 1px #ff00dc;
+}
+
+
+.welcome {
+    color: #666666;
+    font-size: 22px;
+    font-family: 'Englebert', sans-serif;
+}
+
+.qrcode {
+    height: 80px;
+    width: 80px;
+}
