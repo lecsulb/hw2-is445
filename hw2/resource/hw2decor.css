@@ -45,6 +45,8 @@ input:focus, select:focus, textarea:focus {
     color: #147e30;
 }
 
+
+
 table {
     padding-left: 1.5cm;
 }
@@ -70,6 +72,11 @@ input, select, textarea {
     border-color: #665D5F;
     border-width: 1px;
     padding: 6px;
+}
+
+input::-webkit-input-placeholder {  
+    color: #f8c57c;
+    font-weight: normal;
 }
 
 .gray {
