@@ -15,10 +15,16 @@ form {
 }
 
 h1 {
+  
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #78b20c;
     font-size: 32px;
     color: #808080;
 }
 
+li {
+    width: 700px;
+}
 
 input[type=submit], input[type=reset] {
     background-color: #cbd0d3;
@@ -74,33 +80,33 @@ input, select, textarea {
     padding: 6px;
 }
 
-input::-webkit-input-placeholder {  
-    color: #f8c57c;
-    font-weight: normal;
-}
+    input::-webkit-input-placeholder {
+        color: #f8c57c;
+        font-weight: normal;
+    }
 
 .gray {
     list-style-image: url(/hw2/resource/bullet_gray.png);
     font-family: 'Bad Script', cursive;
-    font-weight: bold;
-    font-size: 18px;
-    text-shadow: 1px 1px 1px #cbd0d3;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #78b20c;
 }
 
 .purple {
     list-style-image: url(/hw2/resource/bullet_purple.png);
     font-family: 'Bad Script', cursive;
-    font-weight: bold;
-    font-size: 18px;
-    text-shadow: 1px 1px 1px #cbd0d3;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #78b20c;
 }
 
 .clear {
     list-style-image: url(/hw2/resource/bullet_white.png);
     font-family: 'Bad Script', cursive;
-    font-weight: bold;
-    font-size: 18px;
-    text-shadow: 1px 1px 1px #cbd0d3;
+    font-weight: normal;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px #78b20c;
 }
 
 dd {
@@ -119,8 +125,21 @@ td {
     text-align: left;
 }
 
+.goto {
+    font-size: 20px;
+    color: #1a6f3b;
+    text-shadow: 1px 1px 2px #6f9439;
+}
+
+    .goto:hover {
+        font-size: 20px;
+        color: #371470;
+        text-shadow: 3px 3px 3px #b773ed;
+        font-weight: bolder;
+    }
+
 .profileTitle {
-    padding-left: 7cm;
+    padding-left: 8cm;
     font-family: 'Satisfy', serif;
     font-size: 40px;
     color: #665D5F;
