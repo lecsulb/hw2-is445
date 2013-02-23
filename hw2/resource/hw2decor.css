@@ -6,6 +6,8 @@
 body {
     background-image: url(/hw2/resource/tile.gif);
     font-family: 'Source Sans Pro', sans-serif;
+    width: 70% ;
+    margin: 0 auto;
 }
 
 
@@ -14,12 +16,14 @@ form {
     font-size: 17px;
 }
 
+
+
 h1 {
   
     font-weight: bolder;
-    text-shadow: 1px 1px 1px #78b20c;
+    text-shadow: 1px 2px 2px #a2bf28;
     font-size: 32px;
-    color: #808080;
+    color: #1a6f3b;
 }
 
 li {
@@ -54,7 +58,9 @@ input:focus, select:focus, textarea:focus {
 
 
 table {
-    padding-left: 1.5cm;
+    padding-left: 3cm;
+    width: 90%;
+    margin: 0 auto;
 }
 
 
