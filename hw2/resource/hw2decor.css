@@ -7,14 +7,15 @@
 body {
     background-image: url(/hw2/resource/tile.gif);
     font-family: 'Source Sans Pro', sans-serif;
-    width: 70%;
+    width: 650px;
     margin: 0 auto;
 }
 
 
 form {
-    width: 570px;
+    width: auto;
     font-size: 17px;
+    line-height: 220%
 }
 
 
@@ -27,7 +28,11 @@ h1 {
 }
 
 li {
-    width: 700px;
+    width: auto;
+}
+
+label {
+    display: inline;
 }
 
 input[type=submit], input[type=reset] {
@@ -53,13 +58,14 @@ input:focus, select:focus, textarea:focus {
     background-color: #ffedb2;
     font-weight: bolder;
     color: #147e30;
+
 }
 
 
 
 table {
-    padding-left: 3cm;
-    width: 90%;
+    
+    
     margin: 0 auto;
 }
 
@@ -72,10 +78,10 @@ hr {
 }
 
 .profilePhoto {
-    padding-left: 6.5cm;
+    padding: 0 30%;
     height: 262px;
     width: 240px;
-    text-align: center;
+    
 }
 
 input, select, textarea {
@@ -88,13 +94,28 @@ input, select, textarea {
     color: #371470;
     font-style: italic;
     font-weight: bold;
+    transition: all 0.8s ease-in-out;
 }
 
+    textarea:-moz-placeholder {
+        color: #a2bf28;
+        font-style: italic;
+        text-shadow: 1px 1px 0 #fff;
+    }
+
 legend {
-    text-align: right;
     font-size: 14px;
     font-style: italic;
     color: #665D5F;
+
+    margin-left: 20px;
+    padding: 0 10px;
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+fieldset {
+    border:3px double #ccc;
+    border-radius: 8px;
 }
 
 input::-webkit-input-placeholder {
@@ -156,12 +177,13 @@ td {
     }
 
 .profileTitle {
-    padding-left: 8cm;
+   
     font-family: 'Satisfy', serif;
     font-size: 40px;
     color: #665D5F;
-    text-align: left;
+    text-align: center;
     text-shadow: 1px 1px 1px #ff00dc;
+ 
 }
 
 
